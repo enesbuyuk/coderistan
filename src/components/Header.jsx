@@ -4,7 +4,7 @@ import Link from 'next/link'
 export const Header = () => {
     return (
         <nav>
-            <div class="logo">
+            <div className="logo">
                 <Link href="/"><img src="/istan-theme/logo-white.png" alt="Coderistan Logo"/></Link>
             </div>
             <ul>
