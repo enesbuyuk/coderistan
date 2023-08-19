@@ -2,7 +2,7 @@
 
 # Coderistan
  Coderistan: A Next.js API Project
-<br>
+<br><br>
 ## How to start Coderistan?
 First of all, you need to install the dependencies.
 ```
