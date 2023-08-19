@@ -3,7 +3,17 @@
  Coderistan: A Next.js API Project
 
 ## How to start Coderistan?
+First of all, you need to install the dependencies.
+```npm install```
+
+Then, you should start the server in development mode.
 ```npm run dev```
+
+Afterwards, you need to build it.
+```npm run build```
+
+Finally, execute the following command.
+```npm run start```
 
 ## Config Settings
 `Default Port: 83`
