@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size:16px;
+    margin:0;
+    padding:0;
+    background-color: #121212;
+    color:#FFF;
+}
+article{
+    text-align:left;
+    background:#202020;
+    padding:2.5rem;
+    border-radius: 1rem;
+    box-shadow: 0rem 0rem 1rem #4f0071;
+}
+p{text-indent: 3rem;}
+a{
+    text-decoration: none;
+    color:#FFF
+}
+a:hover{
+    color:#4f0071;
+}
+nav{
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    background-color: #4f0071;
+    box-shadow: 0rem 0rem 1rem #FFF;
+    display: flex;
+}
+nav .logo img{
+    max-width: 22rem;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin:0 1.5rem;
+    vertical-align: bottom;
+
+}
+nav ul li:first{
+    margin-left:0
+}
+nav ul li:last-child{
+    margin-right:0
+}
+nav ul li a{
+    font-weight: bold;
+    font-size:1.2rem
+}
+nav ul li a:hover{
+    color:#000
+}
+main{
+    margin: 4rem auto;
+    width: 90%;
+}
+footer {
+    text-align: center;
+    padding: 0.625rem 0;
+    background-color: #4f0071;
+    color: white;
+    box-shadow: 0rem 0rem 1rem #fff;
+    bottom: 0;
+    width: 100%;
+}
+footer a:hover{
+    color:#000
+}
+.TextCenter{text-align: center;}
+pre, code{
+    background-color: #000;
+    border-radius: 1rem;
+}
+@media (max-width: 768px) {
+  main {
+    margin: 2rem;
+  }
+  header img{
+    width:80%;
+  }
+  body {
+    font-size: 14px; 
+  }
+}

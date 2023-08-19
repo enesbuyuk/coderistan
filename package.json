@@ -1,0 +1,18 @@
+{
+  "name": "coderistan.com",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 83",
+    "build": "next build -p 83",
+    "start": "next start -p 83",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "13.4.16",
+    "nextjs-current-url": "^1.0.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "swr": "^2.2.1"
+  }
+}
